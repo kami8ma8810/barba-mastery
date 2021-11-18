@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Barba.js with GreenSock</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="assets/app.css" rel="stylesheet">
+  <!-- barba/prefetch用polyfill -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver" crossorigin="anonymous" defer></script>
+</head>
+
+<body data-barba="wrapper">
+
+  <div class="wrapper" data-barba="container" data-barba-namespace="home">
+    <header>
+      <a href="index.html" class="is-active">Landscape<span>&nbsp;</span></a>
+      <a href="architecture.html">Architecture</a>
+    </header>
+    <!-- <div class="layer"></div> -->
+    <main>
+
+      <div class="column">
+        <div class="project project01">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="images/img_landscape-01.jpg" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project04">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project06">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1500817487388-039e623edc21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1500817487388-039e623edc21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="project project02">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a> -->
+            <a href="detail-page2.html"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project03">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="images/img_landscape-03.jpg" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project05">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="images/img_landscape-05.jpg" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1459213599465-03ab6a4d5931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="project project01">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project04">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project06">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1500817487388-039e623edc21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="project project02">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project03">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project05">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1459213599465-03ab6a4d5931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="project project01">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="images/img_landscape-01.jpg" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project04">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project06">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1500817487388-039e623edc21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1500817487388-039e623edc21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="project project02">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a> -->
+            <a href="detail-page2.html"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project03">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="images/img_landscape-03.jpg" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project05">
+          <div class="image">
+            <!-- <a href="detail-page.html"><img src="images/img_landscape-05.jpg" /></a> -->
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1459213599465-03ab6a4d5931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="project project01">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project04">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project06">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1500817487388-039e623edc21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="project project02">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project03">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" /></a>
+          </div>
+        </div>
+        <div class="project project05">
+          <div class="image">
+            <a href="detail-page.html"><img src="https://images.unsplash.com/photo-1459213599465-03ab6a4d5931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" /></a>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <footer></footer>
+
+  <script src="assets/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/* Fade out current container */
+.fade-leave {
+  // 遷移前
+  opacity: 1;
+}
+.fade-leave-active {
+  transition: opacity 0.5s linear;
+}
+.fade-leave-to {
+  // 遷移後
+  opacity: 0;
+}
+
+.fade-enter {
+  // 遷移前
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: opacity 1s linear;
+}
+.fade-enter-to {
+  // 遷移後
+  opacity: 1;
+}
