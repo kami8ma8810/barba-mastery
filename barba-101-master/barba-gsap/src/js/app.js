@@ -10,6 +10,10 @@ import {
   revealProject,
 } from './animations';
 
+document.addEventListener('DOMContentLoaded',()=>{
+
+console.log('document addeventlistener!');})
+
 // barba router
 // const myRouter = [
 // 	{name:'home',path:'/index.html'},
@@ -44,7 +48,6 @@ barba.hooks.enter((data) => {
 });
 
 barba.init({
-
   // viewsは特定のページに適用させたいときに使う
   views: [
     {
