@@ -1,6 +1,7 @@
 import gsap from 'gsap';
 
 const revealProject = (container) => {
+
 	const headerLink = container.querySelector('header a');
 	const images = container.querySelectorAll('.image');
 	const content = container.querySelectorAll('.content');
@@ -15,7 +16,7 @@ const revealProject = (container) => {
 	tl
 		.set(hero, {autoAlpha: 1})
 		.from(images, { xPercent: -101, stagger: 0.1 }, 0)
-		.from(img, { 
+		.from(img, {
 			xPercent: 101,
 			stagger: 0.1
 		}, 0)

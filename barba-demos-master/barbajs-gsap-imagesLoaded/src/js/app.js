@@ -6,7 +6,7 @@ barba.hooks.beforeEnter(() => {
 });
 
 barba.init({
-	debug: true,
+	// debug: true,
 	transitions: [
 		{
 			name: 'general-transition',

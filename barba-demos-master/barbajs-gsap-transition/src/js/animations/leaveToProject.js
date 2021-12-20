@@ -1,6 +1,7 @@
 import gsap from 'gsap';
 
 const leaveToProject = (container) => {
+  console.log('leaveでdetailページへ');
 	const navLinks = container.querySelectorAll('header a');
 	const projects = container.querySelectorAll('.image');
 	const images = container.querySelectorAll('img');

@@ -1,6 +1,6 @@
 import barba from "@barba/core";
-import Home from "./pages/home";
-import About from "./pages/detail-page";
+// import Home from "./pages/home";
+// import About from "./pages/detail-page";
 import gsap from "gsap";
 import {
   revealProject,
@@ -21,8 +21,8 @@ barba.hooks.enter(() => {
 });
 
 barba.init({
-  debug: true,
-  views: [Home, About],
+  // debug: true,//検証用
+  // views: [Home, About],//検証用
   transitions: [
     {
       name: "general-transition",
@@ -46,11 +46,15 @@ barba.init({
       to: {
         namespace: ["detail"],
       },
-      once: ({ next }) => {
-        revealProject(next.container);
-      },
+      // 直リンク用
+      // once: ({ next }) => {
+      //   revealProject(next.container);
+      // },
+      // 遷移先がdetailのときに現在のページのleaveで発火
       leave: ({ current }) => leaveToProject(current.container),
+      // 遷移先がdetailのときに現在のページのleaveで発火
       enter: ({ next }) => {
+        console.log('to reveal ENTER detailページ！');
         revealProject(next.container);
       },
     },

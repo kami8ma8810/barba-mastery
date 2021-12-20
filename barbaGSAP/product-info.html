@@ -1,0 +1,81 @@
+<!-- 
+Credit : LearnDesign
+Youtube Channel : https://youtube.com/learndesigntutorial
+Email : help.learndesign@gmail.com
+For Support : https://www.patreon.com/helplearndesign
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page Design With Page Transition Using HTML, CSS & JS | Barba js & GSAP Page Transition</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-barba="wrapper">
+	
+	<!-- PAGE TRANSITION ANIMATION -->
+	<div class="loader-overlay one"></div>
+	<div class="loader-overlay two"></div>
+
+	<div class="wrapper" data-barba="container" data-barba-namespace="productinfo">
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="">
+				</a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="product-info.html">Product info</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Reviews</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+			<div class="cart">
+				<img src="images/cart.png" alt="">
+			</div>
+		</header>
+
+		<div class="content product-info-content">
+			<div class="img">
+				<div class="img-inner">
+					<img src="images/banner.png" alt="">
+				</div>
+			</div>
+			<div class="text">
+				<div class="text-inner">
+					<h3>Turpis commodi dignissim asperiores molestias deserunt, architecto in temporibus</h3>
+					<p>
+						<span>Capacity</span>
+						Senectus, aliquip, egestas, tempus
+					</p>
+					<p>
+						<span>Quality</span>
+						aliquip egestas tempus! Urna porro hendrerit libero. Voluptate
+					</p>
+					<div class="colors">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="#" class="btn">SEE MORE</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+<!-- JQUERY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- BARBA JS -->
+<script src="https://unpkg.com/@barba/core"></script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
